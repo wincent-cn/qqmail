@@ -1,0 +1,304 @@
+*
+{
+    margin: 0;
+        padding: 0;
+}
+    .body{
+        height:100%;
+        overflow:hidden;
+        font-family: "lucida Grande",Verdana,"Microsoft YaHei";
+        background-color: #FFFFFF;
+    }
+    .title{
+        width: 100%;
+        height: 62px;
+        background-color: #eff4fa;
+     
+    }
+    .logo{
+        width: 182px;
+        height:35px;
+        margin-top:14px ;
+        margin-left:40px;
+        float: left;
+    }
+    .logo a{
+        display: block;
+        width:182px ;
+        height: 25px;
+        padding:0 10px
+        
+       
+    }
+    .format{
+        float:left;
+        width: 1257.200px;
+        height:30px;
+        padding-right:40px;
+        margin-top: 16px; 
+       
+
+    }
+    a{
+        text-decoration: none;
+
+    }
+    .title .format li{
+        
+        float:right;
+       
+        margin-left: 10px;
+        line-height: 30px;}
+    .title .format a{
+        font-size: 12px;
+        color: #1D5494;
+    }
+    .format li:not(:last-child)::before{
+        content: '|';
+        color: #C3B6B6;
+        font-size: 10px;
+        margin-right:4px;
+    }
+    .format a:hover{
+      text-decoration: underline;
+    }
+    .main{
+        width: 960px;
+        height: 429px;
+        padding:0 24px;
+        margin: 100px auto;
+    }
+    
+    .loading{
+        width: 334px;
+        height: 386px;
+        border: 1px #A0B1C4 solid;
+        border-radius: 6px;
+        float:right;
+    }
+    .weixin{
+        float:left;
+        line-height: 50px;
+    }
+   
+    .qq{
+        float:right;
+        line-height: 50px;
+    }
+    .weixin a:hover{
+        text-decoration: none;
+    }
+    .qq a:hover{
+        text-decoration: none;
+    }
+   .weixin a{
+       display: block;
+       height:50px;
+      padding:0  50px;
+      font-size: 17px; 
+      color: #3C3F47;
+     }
+   
+   .qq a{
+       display: block;
+       height:50px;
+      padding: 0 50px;
+      font-size: 17px; 
+      color: #3C3F47;  
+   }
+   .wapper{
+       width: 334px;
+       height: 50px;
+       border-bottom: 1px #A0B1C4 solid;
+       background-color: #F9FBFE;
+       border-radius: 6px 6px 0 0;
+   }
+
+   .uncheck{
+       display: block;
+       width: 16px;
+       height: 16px;
+       border: 1px #A0B1C4 solid;
+       background-color: #FFFFFF;
+       float: left;
+       
+   }
+  .again-wapper{
+       margin-top: 25px;
+       margin-left:26px ;
+       line-height:16px;
+    }
+   
+   .again{
+        display: block;
+        margin-left:25px;
+        font-size: 12px;
+   }
+   .load input{
+       width: 282px;
+       height: 38px;
+       border: 1px solid #6f95c8;
+       outline-color: #225592;
+       border-radius: 3px;
+
+
+
+   }
+   .txt{
+        margin:36px 26px 0 26px ;
+   }
+   .key{
+         margin:10px 26px 0 26px ;
+   }
+   
+   #username,#password {
+    font-size: 14px;
+    color: grey;
+    padding-left :10px;
+    
+   
+    }
+     .shouquan{
+        height: 40px;
+        width: 284px;
+        margin:18px 26px;
+        background-color: #5a98de;
+        border-radius: 3px;
+        
+    } 
+    .button{
+        float: left;
+        line-height: 40px;
+        
+    }
+
+   .button a{ 
+        display: block;
+        color: #FFF;
+        font-size: 18px;
+        padding: 0 106px;
+        
+        
+       
+      
+      
+   }
+   .button a:hover
+    {
+    background: #6AA2E0;
+    text-decoration: none;
+    }
+
+   .quick{
+       display:flex ;
+       flex-direction: column;
+       
+   }
+   .quick a{
+       align-self: center;
+       font-size: 13px;
+       color:#225592;
+   }
+   .quick a:hover{
+       text-decoration: none;
+   }
+   .bottom{
+       width: 282px;
+       height:16px;
+       position: relative;
+      left: 26px;
+      top: 50px;
+   }
+   .found{
+       float: left;
+       font-size: 12px;
+   }
+   .resign{
+       float:right;
+       font-size: 12px;
+   }
+   .bottom a{
+    color:#225592;
+   }
+   .bottom a:hover{
+       text-decoration: underline;
+   }
+   .footer{
+       width: 1479.200px;
+       height: 53px;
+       padding: 6px 20px;
+       background-color: #EFF4FA;
+       position: relative; 
+       display:flex ;
+       flex-direction: column;
+       
+      
+   }
+   
+   .footer li{
+      font-size: 12px;
+      float: left;
+      
+       
+   }
+   .footer ul{
+    align-self: center;
+
+   }
+   .top{
+       margin:5px
+   }
+   .under{
+       margin:5px 
+       
+
+   }
+   .under li{
+       margin-right: 16px;
+
+   }
+   .top li:not(:last-child)::after{
+        content: '|';
+        color: #C3B6B6;
+        font-size: 10px;
+        margin-left:10px;
+    }
+    .top li{
+        margin-right: 10px;
+    }
+    .top a{
+        color: #1D5494;
+    }
+    .last{
+        color: #868686;
+    }
+    .under a{
+        color: #868686;
+    }
+    .top a:hover{
+        text-decoration: underline;
+    }
+    .bottom a:hover{
+        color: #225592;
+    }
+    .under a:hover{
+        text-decoration: underline;
+    }
+    .first{
+        font-size: 26px;
+        color: #7D9DCA;
+        width: 520px;
+        height: 26px;
+        padding: 15px 0;
+    }
+   .img{
+       float: left;
+    }
+
+       
+       
+
+   
+    
+    
+
